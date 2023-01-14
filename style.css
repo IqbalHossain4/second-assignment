@@ -279,6 +279,17 @@ img {
   margin-bottom: 30px;
 }
 
+/*-------------------------map Section------------------------- */
+.map h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.map_container iframe {
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+}
 /*-------------------------Responsive Section------------------------- */
 
 /*-------------------------Responsive Tablet------------------------- */
@@ -324,9 +335,12 @@ img {
   .nav .header_menu ul {
     gap: 8px;
   }
+  .header {
+    padding-bottom: 20px;
+  }
   .nav .header_menu ul a,
   .header_title h2 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .banner_box {
     display: flex;
@@ -344,12 +358,18 @@ img {
   .facts_container > p {
     text-align: center;
   }
+  .facts_container > p {
+    width: 100%;
+  }
   .features_desc h2 {
     font-size: 25px;
   }
   .enjoy_container,
   .features_container {
     grid-template-columns: 1fr;
+  }
+  .btn_box {
+    transform: translate(-50%, 0);
   }
   .facts_boxs {
     display: grid;
@@ -370,6 +390,10 @@ img {
   .sponsor_icon img {
     width: 100px;
   }
+  .map_container iframe {
+    height: 30vh;
+  }
+
   .footer_container {
     font-size: 12px;
     width: 100%;
